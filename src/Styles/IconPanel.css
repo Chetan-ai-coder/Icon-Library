@@ -1,0 +1,35 @@
+/* Icon panel start */
+
+.iconpanel {
+    width: 75%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    border-top-right-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    box-shadow: 11px 0px 50px 12px #00000040;
+    z-index: 5;
+    background-color: white;
+}
+
+/* Overlay menu start */
+    .overlay-menu {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        gap: 8px;
+        border: none;
+        font-family: "Inter", sans-serif;
+        z-index: 4;
+    }
+
+    /* Overlay menu end */
+
+/* Icon panel end */

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* This is button default design */
+.badge{
+    font-size: 16px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px 12px;
+    border-radius: 5px;
+    background-color: #f6f6f7;
+    color: #3c3c43;
+    border: none;
+}
+
+.version{
+    margin-right: 24px;
+}
+
+.icon-panel-button{
+    display: inline-flex;
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: #f6f6f7;
+    font-size: 20px;
+    border: none;
+}

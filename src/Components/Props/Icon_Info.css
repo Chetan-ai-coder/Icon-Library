@@ -1,0 +1,132 @@
+/* Icon Info Start */
+
+.icon-info {
+    width: 880px;
+    height: 240px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+    position: relative;
+}
+
+.icon-info .close-button{
+    display: flex;
+    position: absolute;
+    right: 200px;
+}
+
+/* Icon Name Wrapper start */
+.icon-info .icon-name-wrapper {
+    font-size: 24px;
+    font-weight: 500;
+    color: #3c3c43;
+    margin-bottom: -10px;
+}
+
+/* Icon Name Wrapper end */
+
+/* Tags Scroller Start */
+.icon-info .tags-scroller {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3c3c43da;
+}
+
+/* Tags Scroller End */
+
+/* Icon use category Start */
+.icon-info .icon-use-category .use {
+    padding: 2px 12px 5px 12px;
+    font-weight: 600;
+}
+
+/* Icon use category End */
+
+/* Icon action button start */
+.icon-info .icon-action-buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    gap: 10px;
+    font-size: 14px;
+
+
+}
+
+.icon-info .icon-action-buttons #icon-action-btn {
+    font-size: 14px;
+    background-color: #f56565;
+    color: #ffffff;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+/* Button wrapper start */
+.icon-info .icon-action-buttons .button-wrapper {
+    color: #3c3c43;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+/* Button wrapper end */
+
+.icon-info .icon-action-buttons .button-wrapper .copy-btn {
+    font-size: 14px;
+    background-color: #EBEBEF;
+    padding: 7px 12px 7px 20px;
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+.icon-info .icon-action-buttons .button-wrapper .button-wrapper-icon {
+    font-size: 22px;
+    background-color: #EBEBEF;
+    padding: 2px 4px 2px 0px;
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+}
+
+/* Icon action button end */
+
+/* Contributors start */
+
+.contributors{
+    width: 700px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contributors #label{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.contributors .avatar-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar-group .avatar-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Contributors end */

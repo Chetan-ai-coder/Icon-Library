@@ -1,0 +1,13 @@
+.icon-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 240px;
+        height: 240px;
+        aspect-ratio: 1/1;
+        position: relative;
+        background-color: #f6f6f7;
+        border-radius: 8px;
+        z-index: 1;
+        font-size: 230px;
+    }
